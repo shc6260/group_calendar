@@ -5,7 +5,7 @@ pipeline {
         
         stage('github-clone') {
             steps {
-              //  git branch: 'BE', credentialsId: 'github_token', url: '{REPOSITORY URL}'
+              //  git branch: 'BE', credentialsId: 'github_token', url: 'https://github.com/shc6260/group_calendar.git'
                 echo 'Building the project...'
             }
         }
