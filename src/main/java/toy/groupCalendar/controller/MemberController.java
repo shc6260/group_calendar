@@ -1,4 +1,4 @@
-package toy.group_calendar.controller;
+package toy.groupCalendar.controller;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -8,10 +8,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.client.RestClient;
-import toy.group_calendar.Utils.RestClientUtil;
-import toy.group_calendar.data.Member;
-import toy.group_calendar.data.MemberCreateDto;
+import toy.groupCalendar.Utils.RestClientUtil;
+import toy.groupCalendar.data.Member;
+import toy.groupCalendar.data.MemberCreateDto;
 
 @RequiredArgsConstructor
 @Controller

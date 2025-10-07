@@ -1,4 +1,4 @@
-package toy.group_calendar.data;
+package toy.groupCalendar.data;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

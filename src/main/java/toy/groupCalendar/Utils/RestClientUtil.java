@@ -1,4 +1,4 @@
-package toy.group_calendar.Utils;
+package toy.groupCalendar.Utils;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.MediaType;

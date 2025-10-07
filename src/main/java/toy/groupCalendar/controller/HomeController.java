@@ -1,4 +1,4 @@
-package toy.group_calendar.controller;
+package toy.groupCalendar.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

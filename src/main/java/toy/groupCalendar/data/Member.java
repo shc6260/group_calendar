@@ -1,4 +1,4 @@
-package toy.group_calendar.data;
+package toy.groupCalendar.data;
 
 import jakarta.validation.constraints.NotEmpty;
 import lombok.Data;

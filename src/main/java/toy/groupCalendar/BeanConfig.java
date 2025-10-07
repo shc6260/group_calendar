@@ -1,10 +1,8 @@
-package toy.group_calendar;
+package toy.groupCalendar;
 
-import ch.qos.logback.core.joran.spi.HttpUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.http.HttpMethod;
 import org.springframework.http.client.SimpleClientHttpRequestFactory;
 import org.springframework.web.client.RestClient;
 
