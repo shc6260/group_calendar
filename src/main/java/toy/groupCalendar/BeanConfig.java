@@ -14,7 +14,7 @@ public class BeanConfig {
 
     private static final int CONNECTION_TIMEOUT_SECONDS = 5;
     private static final int READ_TIMEOUT_SECONDS = 5;
-    private static final String baseUrl = "http://localhost:8081";
+    private static final String baseUrl = "http://192.168.175.131:10002";
 
     @Bean
     public RestClient restClient() {
